@@ -15,15 +15,15 @@
     <form method="POST">
         {% csrf_token %}
         <div class="form-group">
-          <label for="gender">Enter Gender (0 for female and 1 for male)</label>
+          <label for="gender">Enter  the Gender (0 for female and 1 for male)</label>
           <input type="text" class="form-control" id="gender" name="gender" >
         
         <div class="form-group">
-          <label for="age">Enter age</label>
+          <label for="age">Enter the age</label>
           <input type="text" class="form-control" id="age" name="age">
         </div>
       
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit Here</button>
       </form>
       <h3>Survive Result:{{result}}</h3>
 
